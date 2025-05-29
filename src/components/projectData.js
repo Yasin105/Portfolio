@@ -1,21 +1,15 @@
 // projectData.js
 const projectData = [
   {
-    id: 'rest-api',
-    title: 'REST API',
-    description: `A full-featured API...`,
-    techStack: 'React, Node.js, MongoDB, Express.js',
-    codeLink: 'https://github.com/yourusername/ecommerce',
-    details: `A deeper explanation, architecture, endpoints, and so on.`,
+     id: 'port',
+    title: 'Portfolio',
+    description: `Personal fully responsive portfolio site with resume where you can download or even print resume page,
+     projects area with projects displayed in cards,a dummy experience page and contact form.`,
+    techStack: 'React, Javascript, Bootstrap, CSS',
+    
+    codeLink: 'https://github.com/Yasin105/Portfolio'
   },
-  {
-    id: 'khaadi-clone',
-    title: 'Khaadi Clone',
-    description: `Implemented React components...`,
-    techStack: 'React, Node.js, MongoDB',
-    codeLink: 'https://github.com/yourusername/ecommerce',
-    details: `Detailed overview of pages, features, API integration etc.`,
-  },
+
   {
      id: 'rest',
     title: 'REST API',
@@ -23,7 +17,7 @@ const projectData = [
     update data,and some online store functionalities like product boxes,
      cart and checkout.`,
     techStack: 'React, Node.js, MongoDB, Express.js',
-       codeLink: 'https://github.com/yourusername/ecommerce'
+       codeLink: 'https://github.com/Yasin105/API'
   },
   {
      id: 'khaadi',
@@ -35,7 +29,7 @@ const projectData = [
     Used React-toastify to show toast`,
     techStack: 'React, Node.js, MongoDB',
     
-    codeLink: 'https://github.com/yourusername/ecommerce'
+    codeLink: 'https://github.com/Yasin105/Khaadi-App'
   },
   {
      id: 'zer0',
@@ -45,7 +39,7 @@ const projectData = [
                   API calling was brought in for dummy products`,
     techStack: 'HTML,CSS, Node.js,',
    
-    codeLink: 'https://github.com/yourusername/ecommerce'
+    codeLink: 'https://github.com/Yasin105'
   },
   {
      id: 'ttt',
@@ -53,15 +47,7 @@ const projectData = [
     description: 'A smart Tic Tac Toe game with minimax algorithm.',
     techStack: 'React, JavaScript',
     
-    codeLink: 'https://github.com/yourusername/tictactoe'
-  },
-  {
-     id: 'port',
-    title: 'Portfolio',
-    description: 'Personal portfolio site with resume, projects, and contact form.',
-    techStack: 'React, Bootstrap, CSS',
-    
-    codeLink: 'https://github.com/yourusername/portfolio'
+    codeLink: 'https://github.com/Yasin105/Tic-Tac-Toe'
   },
   {
      id: 'wpa',
@@ -71,7 +57,7 @@ const projectData = [
     This process was carried out by the shake of your android device,
     Used Firebase to store the guardian Information`,
     techStack: 'Kotlin, Google Firebase',
-    codeLink: 'https://github.com/yourusername/portfolio'
+    codeLink: 'https://github.com/Yasin105'
   },
  // Add other projects with unique `id` and `details`
 ];

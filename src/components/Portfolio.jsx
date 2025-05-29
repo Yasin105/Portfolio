@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Portfolio.css'
 import background from '../assets/Background.png'
 
@@ -24,7 +24,7 @@ const Portfolio = () => {
             in working with me, please feel free to reach out!
           </p>
           <p className='title'>Thank you for visiting my portfolio!</p>
-          <p className='title'>You can find my work below.</p>
+          <p className='title'>You can check my work in Projects.</p>
         </div>
         <div className='col-12 col-md-6 text-center'>
           <img
