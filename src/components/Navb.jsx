@@ -12,10 +12,10 @@ function Navb() {
   return (
     <Navbar expand="lg" className="shadow-sm" style={{ backgroundColor: '#27548A' }}>
       <Container>
-        <Navbar.Brand><img
+         <img
                     src={Logo}
-                    style={{ maxHeight: '30px', width: '100%', objectFit: 'cover' }}
-                  /></Navbar.Brand>
+                    style={{ maxHeight: '25px', width: '150px', marginLeft: '-25px' }}
+                  />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
