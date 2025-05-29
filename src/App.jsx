@@ -9,14 +9,12 @@ import Experience from './components/Experience';
 import Project from './components/Project';
 import Resume from './components/Resume';
 import ProjectDetail from './components/ProjectDetail'
-import { ThemeProvider } from './components/ThemeContext';
 
 
 function App() {
 
   return (
-    <>
-    <ThemeProvider>
+   <>
     <Navb/>
     <Routes>
       <Route path="/" element={<Portfolio/>}/>
@@ -27,14 +25,15 @@ function App() {
       <Route path="/Resume" element={<Resume/>}/>
       <Route path="/Projects/:id" element={<ProjectDetail />} />
     </Routes>
+    
+
     <footer className='text-center mt-1'>
       <p>Made with <i className="bi bi-heart-fill"></i> by Muhammad Yasin</p>
       <p>All rights reserved &copy; 2025</p>
       <p>Follow me on <a href="https://www.linkedin.com/in/muhammad-yasin-abb40b203" target="_blank">LinkedIn</a> | <a href="https://github.com/Yasin105">Github</a>
       </p>
       </footer> 
-      </ThemeProvider>
-    </>
+   </> 
   )
 }
 
