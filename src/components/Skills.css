@@ -1,0 +1,35 @@
+/* Glass effect for Accordion headers and cards */
+.glass-card,
+.accordion-glass .accordion-item,
+.accordion-glass .accordion-header,
+.accordion-glass .accordion-body {
+  background: rgba(255, 255, 255, 0.001) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+ box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  color: #fff !important;
+  transition: background 0.3s ease, backdrop-filter 0.3s ease
+}
+
+/* Optional: Adjust accordion button appearance */
+.accordion-button {
+  background: transparent !important;
+  color: white !important;
+  font-weight: 500;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.12) !important;
+}
+
+/* Remove inner box shadows */
+.accordion-item {
+  border: none !important;
+  margin-bottom: 10px;
+}
+.pil{
+    background-color: #001A6E;
+}

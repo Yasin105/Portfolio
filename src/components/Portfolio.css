@@ -1,0 +1,57 @@
+.bg{
+    background-color: #0b041c;
+    padding: 20px;
+    color: white;
+    display: flex;
+}
+.sbg{
+    background: linear-gradient(to right, #8ebcd9, #193171);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 60px 30px;
+}
+
+.sk{
+    width: 97%;
+    border-bottom: 2px solid whitesmoke; 
+}
+.pbg{
+    background-color: #120433;
+    padding: 20px;
+    color: white;
+    display: flex;
+}
+.cbg{
+    background-color: rgb(25, 94, 87);
+    padding: 20px;
+    margin-top: 2px;
+    color: white;
+    display: flex;
+}
+.bakr{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border:2px solid #120433;
+    margin: auto;
+    padding: 20px;
+
+}
+.dark-bg {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+form .form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.nam{
+    color: white;
+    text-shadow: 
+    0 0 10x cyan,
+    0 0 20px cyan,  
+    0 0 40px cyan,;
+}
